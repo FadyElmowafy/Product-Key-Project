@@ -51,7 +51,7 @@ Route::controller(AdminController::class)->group(function(){
         Route::get('/admin/product_key/{product_key?}','check_expiration');
         });
     });
-
+ 
 Route::post('/admin/product_key/{jsonData}',[AdminController::class,'test']);
 
     //admin account 
